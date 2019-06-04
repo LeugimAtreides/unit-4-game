@@ -33,11 +33,83 @@ body, html {
 /* custom styling for the h1 tag */
 h1 {
     font-size: 4vh;
-    border: ridge 3vh springgreen;
-    letter-spacing: 1.5vw;
+    border: ridge 1.5vh;
+    border-color: darkgreen;
+    letter-spacing: 0rem;
     line-height: 5vh;
     background-image: url(../images/papyrus-background.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'hylia_serif_betaregular';
-    margin-top: 5vh;
+    margin-top: 2vh;
     
+}
+
+
+/* custom styling for the p tag */
+p {
+    background-image: url(../images/papyrus-background.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: ridge 15px;
+    border-color: orangered;
+    font-size: 2vh;
+}
+
+/* custom styling for the h2 tags that contain the score */
+h2 {
+    background-image: url(../images/papyrus-background.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: ridge 5px;
+    border-color: steelblue;
+}
+
+/* custom styling for the rupee crystals  */
+/* each crystal will have a class that sets its background and border properties */
+.red-crystal {
+    background-image: url(../images/papyrus-background.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: ridge 5px;
+    border-color: red;
+    z-index: 400;
+
+}
+
+.green-crystal {
+    background-image: url(../images/papyrus-background.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: ridge 5px;
+    border-color: green;
+    z-index: 400;
+}
+
+.yellow-crystal {
+    background-image: url(../images/papyrus-background.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: ridge 5px;
+    border-color: yellow;
+    z-index: 400;
+}
+
+/* each crystal will have an img id in order to give some control over its properties; these will be changed or unused depending on the compliance of the images using the google chrome dev tools*/
+#redRupeePicture {
+
+}
+
+#greenRupeePicture {
+
+}
+
+#yellowRupeePicture {
+
 }

@@ -38,24 +38,76 @@
 
             <!-- second row which holds the instructions of the game -->
             <div class="row align-items-start">
-                <div class="col-md-6 offset-md-3">
-                    
+                <div class="col-md-8 offset-md-2">
+
                     <!-- instructions of the game -->
                     <p class="text-center">
                         You will be given a random number at the start of the game
-                        <br><br>
+                        <br>
                         There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
-                        <br><br>
+                        <br>
                         You win the game by matching your total score to the randomly generated number.
-                        <br><br>
+                        <br>
                         You lose the game if your total score goes above the random number.
-                        <br><br>
+                        <br>
                         The value of each crystal is hidden from you until you click on it.
-                        <br><br>
+                        <br>
                         Each time when the game starts, the game will change the value of each crystal
                     </p>
                 </div>
             </div>
+
+            <!-- third row which will hold the score and the changing target number -->
+            <div class="row align-items-start">
+
+                <!-- columns that will hold the target score and the user score -->
+                <div class="col-md-3 offset-md-3">
+
+                    <!-- this header will hold the score the user is targeting -->
+                    <h2 class="text-center">
+                        Your Target:
+                    </h2>
+                    <h2 class="text-center" id="targetScore">55</h2>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <!-- this header will hold the user score -->
+                    <h2 class="text-center">
+                        Your Score:
+                    </h2>
+                    <h2 class="text-center" id="userScore">0</h2>
+                </div>
+
+            </div>
+
+            <!-- this is the row where the crystal magic happens -->
+            <div class="row align-items-center">
+                <div class="col">
+
+                    <!-- this column will contain the red rupee sprite -->
+                    <button id="red-rupee" class="btn red-crystal" value="randomRed"><img src="assets/images/Red-Rupee-Altered.png" alt="A Shiny Red Rupee" id="redRupeePicture"></button>
+
+                </div>
+
+                <div class="col">
+
+                    <!-- this column will contain the green rupee sprite -->
+                    <button id="green-rupee" class="btn green-crystal" value="randomGreen"><img src="assets/images/Green-Rupee-Altered.png" alt="A Shiny Green Rupee" id="greenRupeePicture"></button>
+
+                </div>
+
+                <div class="col">
+
+                    <!-- this column will contain the yellow rupee sprite -->
+
+                    <button id="yellow-rupee" class="btn yellow-crystal" value="randomYellow"><img src="assets/images/Yellow-Rupee-Altered.png" alt="A Shiny Yellow Rupee" id="yellowRupeePicture"></button>
+                </div>
+
+            </div>
+
+
                 
         </div>
 
