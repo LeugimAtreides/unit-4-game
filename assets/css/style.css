@@ -28,6 +28,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 /* custom styling for the h1 tag */
@@ -70,7 +71,7 @@ h2 {
 
 /* custom styling for the rupee crystals  */
 /* each crystal will have a class that sets its background and border properties */
-.red-crystal {
+.red-crystal-background {
     background-image: url(../images/papyrus-background.jfif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +82,7 @@ h2 {
 
 }
 
-.green-crystal {
+.green-crystal-background {
     background-image: url(../images/papyrus-background.jfif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,7 +92,7 @@ h2 {
     z-index: 400;
 }
 
-.yellow-crystal {
+.yellow-crystal-background {
     background-image: url(../images/papyrus-background.jfif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +103,7 @@ h2 {
 }
 
 /* each crystal will have an img id in order to give some control over its properties; these will be changed or unused depending on the compliance of the images using the google chrome dev tools*/
-#redRupeePicture {
+/* #redRupeePicture {
 
 }
 
@@ -112,4 +113,4 @@ h2 {
 
 #yellowRupeePicture {
 
-}
+} */
